@@ -1,0 +1,43 @@
+{
+  "name": "yyui-vue-component",
+  "version": "0.1.0",
+  "private": true,
+  "description": "fast create vue component.",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {},
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmkn/yyui-vue-component.git"
+  },
+  "keywords": [
+    "yyui"
+  ],
+  "author": "HZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zmkn/yyui-vue-component/issues"
+  },
+  "homepage": "https://github.com/zmkn/yyui-vue-component#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}

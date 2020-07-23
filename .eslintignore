@@ -1,0 +1,8 @@
+node_modules
+dist
+packages
+*.js
+*/.idea
+
+# MacOS
+*/.DS_Store
