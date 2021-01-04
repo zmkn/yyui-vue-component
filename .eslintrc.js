@@ -33,6 +33,7 @@ module.exports = {
     "spaced-comment": 0,
     "space-in-parens": 0,
     "space-unary-ops": 0,
+    "linebreak-style": [0, "windows"],
     "space-before-blocks": 0,
     "object-curly-spacing": 0,
     "space-return-throw-case": 0,

@@ -1,1 +1,1 @@
-export * from './spinner.js';
+export * from "./vue-component.js";
